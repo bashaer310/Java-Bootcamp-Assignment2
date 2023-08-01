@@ -120,7 +120,7 @@ public class Main {
                     }
                 }
                 if(IsPrime ==true){
-                    System.out.println("the number is a prime number");
+                    System.out.println("the number a prime");
                 }
             }
         }while(Number<0);*/
