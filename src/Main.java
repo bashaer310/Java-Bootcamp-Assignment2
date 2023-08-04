@@ -99,8 +99,8 @@ public class Main {
             answer=input.nextLine().toLowerCase();
 
         }while(!answer.equals("yes"));
-        System.out.println("the sum of odd numbers is " + oddSum);
-        System.out.println("the sum of even numbers is " + evenSum);*/
+        System.out.println("the sum of the odd numbers is " + oddSum);
+        System.out.println("the sum of the even numbers is " + evenSum);*/
 
         //Q7.Write a program that prompts the user to input a positive integer. It should then output a message indicating whether the number is a prime number.
         /*Scanner input = new Scanner(System.in);
@@ -120,7 +120,7 @@ public class Main {
                     }
                 }
                 if(IsPrime ==true){
-                    System.out.println("the number a prime");
+                    System.out.println("the number is a prime");
                 }
             }
         }while(Number<0);*/
@@ -152,9 +152,9 @@ public class Main {
             answer=input.nextLine().toLowerCase();
 
         }while(!answer.equals("yes"));
-        System.out.println("the count of positive numbers is " + positiveCount);
-        System.out.println("the count of negative numbers is " + negativeCount);
-        System.out.println("the count of Zero numbers is " + zeroCount);*/
+        System.out.println("the count of the positive numbers is " + positiveCount);
+        System.out.println("the count of the negative numbers is " + negativeCount);
+        System.out.println("the count of the Zero numbers is " + zeroCount);*/
 
         //Q9.Use a for loop to print headings for four weeks (Weeks 1 - 4). Then use another for loop to print the days (Days 1 -7) for each week.
         /*for (int i = 1; i <= 4; i++) {
