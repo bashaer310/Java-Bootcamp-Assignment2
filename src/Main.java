@@ -95,7 +95,7 @@ public class Main {
 
             }
 
-            System.out.println("\nto exit enter 'Yes' ");
+            System.out.println("\nTo exit enter 'Yes' ");
             answer=input.nextLine().toLowerCase();
 
         }while(!answer.equals("yes"));
