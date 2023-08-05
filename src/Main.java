@@ -171,7 +171,7 @@ public class Main {
         /*Scanner input = new Scanner(System.in);
         System.out.println("Please enter a text ");
         String word = input.nextLine();
-        String wordRe=null;
+        String wordRe="";
 
         for (int i =word.length()-1;i>=0; i--){
             wordRe += word.charAt(i);
