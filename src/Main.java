@@ -152,9 +152,9 @@ public class Main {
             answer=input.nextLine().toLowerCase();
 
         }while(!answer.equals("yes"));
-        System.out.println("the count of the positive numbers is " + positiveCount);
-        System.out.println("the count of the negative numbers is " + negativeCount);
-        System.out.println("the count of the Zero numbers is " + zeroCount);*/
+        System.out.println("Count of the positive numbers is " + positiveCount);
+        System.out.println("Count of the negative numbers is " + negativeCount);
+        System.out.println("Count of Zero numbers is " + zeroCount);*/
 
         //Q9.Use a for loop to print headings for four weeks (Weeks 1 - 4). Then use another for loop to print the days (Days 1 -7) for each week.
         /*for (int i = 1; i <= 4; i++) {
@@ -176,9 +176,9 @@ public class Main {
             wordRe += word.charAt(i);
         }
         if(word.equals(wordRe)){
-            System.out.println("the word is a palindrome");
+            System.out.println("The word is a palindrome");
         }else{
-            System.out.println("the word is not a palindrome");
+            System.out.println("The word is not a palindrome");
 
         }*/
     }
