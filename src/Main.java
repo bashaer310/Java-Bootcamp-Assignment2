@@ -81,17 +81,17 @@ public class Main {
 
         /*Scanner input = new Scanner(System.in);
 
-        int oddSum =0;
-        int evenSum =0;
+        int oddAddition =0;
+        int evenAddition=0;
         String answer=null;
         do {
             System.out.println("\nPlease enter a number ");
             int Number = input.nextInt();
             input.nextLine();
             if (Number%2==0){
-                evenSum += Number;
+                evenAddition += Number;
             }else if (Number%2!=0){
-                oddSum += Number;
+                oddAddition += Number;
 
             }
 
@@ -99,8 +99,9 @@ public class Main {
             answer=input.nextLine().toLowerCase();
 
         }while(!answer.equals("yes"));
-        System.out.println("the sum of the odd numbers is " + oddSum);
-        System.out.println("the sum of the even numbers is " + evenSum);*/
+        System.out.println("the addition of the odd numbers is " + oddAddition);
+        System.out.println("the addition of the even numbers is " + evenAddition);*/
+        
 
         //Q7.Write a program that prompts the user to input a positive integer. It should then output a message indicating whether the number is a prime number.
         /*Scanner input = new Scanner(System.in);
@@ -120,7 +121,7 @@ public class Main {
                     }
                 }
                 if(IsPrime ==true){
-                    System.out.println("the number is a prime");
+                    System.out.println("The number is a prime");
                 }
             }
         }while(Number<0);*/
@@ -148,7 +149,7 @@ public class Main {
 
             }
 
-            System.out.println("\nto exit enter 'Yes' ");
+            System.out.println("\nTo exit enter 'Yes' ");
             answer=input.nextLine().toLowerCase();
 
         }while(!answer.equals("yes"));
